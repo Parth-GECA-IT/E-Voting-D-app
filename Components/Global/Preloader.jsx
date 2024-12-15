@@ -2,8 +2,8 @@ import React from "react";
 
 const Preloader = () => {
   return (
-    <div class="preloader">
-      <span class="loader"></span>
+    <div className="preloader">
+      <span className="loader"></span>
     </div>
   );
 };

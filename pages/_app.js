@@ -1,4 +1,5 @@
 import toast, { Toaster } from "react-hot-toast";
+import { Html, Head, Main, NextScript } from 'next/document';
 import "../styles/globals.css";
 
 import { VOTER_DAPP_PROVIDER } from "../context/context";

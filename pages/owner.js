@@ -80,7 +80,7 @@ const voter = () => {
                 <div class="head_part">
                   <a href="/">
                     {" "}
-                    <img src="assets/images/LogoF.png" style={{ width: '4rem' }} alt="Logo" />
+                    <img src="assets/images/Loho.png" style={{ width: '4rem' }} alt="Logo" />
                   </a>
                   <h5 class="mt-5 mt-lg-6">Import Contract Functions </h5>
                 </div>

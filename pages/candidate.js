@@ -102,7 +102,7 @@ const signup = () => {
                 <div class="head_part">
                   <a href="/">
                     {" "}
-                    <img src="assets/images/LogoF.png" style={{ width: '4em' }} alt="Logo" />
+                    <img src="assets/images/Loho.png" style={{ width: '4em' }} alt="Logo" />
                   </a>
                   <h5 class="mt-5 mt-lg-6">Register as a candidate</h5>
                 </div>

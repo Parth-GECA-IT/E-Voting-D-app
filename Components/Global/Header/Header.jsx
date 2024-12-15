@@ -38,18 +38,19 @@ const Header = () => {
               className="navbar-brand m-0 p-0 d-flex align-items-center gap-5 gap-xl-5 me-2"
             >
               <img
-                src="assets/images/LogoF.png"
+                src="assets/images/Loho.png"
                 className="logo small_logo d-sm-none"
+                style = {{width:'3rem'}}
                 alt="logo"
               />
               <img
-                src="assets/images/LogoF.png"
+                src="assets/images/Loho.png"
                 className="logo d-none d-lg-flex"
-                style = {{width:'4em'}}
+                style = {{width:'3rem'}}
                 alt="logo"
               />
-              <span classNameName="d-none d-lg-flex" 
-                style={{ left: '5.1rem', position: 'absolute', fontSize: '38px', fontFamily: 'arial' }}
+              <span className="d-none d-lg-flex" 
+                style={{ left: '3.9rem', position: 'absolute', fontSize: '38px', fontFamily: 'cursive' }}
                 >otz</span>
             </a>
           </div>

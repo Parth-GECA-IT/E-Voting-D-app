@@ -101,7 +101,7 @@ const HeroSection = ({ initialData, higest }) => {
               <span class="d-center s1-bg p-3 p-lg-4 rounded-circle">
                 <i class="ti ti-broadcast fs-three nb4-color"></i>
               </span>
-              <h4 class="nw1-color">Get Approvel</h4>
+              <h4 class="nw1-color">Get Approval</h4>
             </li>
             <li class="d-flex gap-3 align-items-center">
               <span class="d-center s1-bg p-3 p-lg-4 rounded-circle">
