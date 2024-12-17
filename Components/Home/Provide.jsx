@@ -15,15 +15,14 @@ const Provide = () => {
           <div class="col-lg-8 col-xxl-7">
             <div class="heading__content mb-10 mb-lg-15 text-center">
               <span class="heading p1-color fs-five mb-5">
-                We Provide World’s
+              Welcome to the Online Voting System
               </span>
               <h3 class="mb-5 mb-lg-6">
-                Join a club of more than <span class="s1-color">480,000</span>{" "}
-                traders
+              Empowering  <span class="s1-color">Democracy</span>{" "}
+              with secure and transparent voting
               </h3>
               <p class="fs-six-up mx-ch mx-auto">
-                Trading is the art and science of buying and selling financial
-                instruments, such as stocks bonds currencies commodities
+              Participate in the elections, Your voice matters.
               </p>
             </div>
           </div>
@@ -34,10 +33,9 @@ const Provide = () => {
               <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
                 <i class="ti ti-award-filled fs-three p1-color"></i>
               </span>
-              <h4 class="mt-5 mb-5">Best Reputation</h4>
+              <h4 class="mt-5 mb-5">Secure & Transparent Voting</h4>
               <p>
-                transformed the trading landscape. Online trading platforms and
-                mobile apps have made it easier than ever for individuals
+              Our platform ensures secure, decentralized, and transparent voting using cutting-edge blockchain technology.
               </p>
             </div>
           </div>
@@ -46,11 +44,9 @@ const Provide = () => {
               <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
                 <i class="ti ti-users fs-three p1-color"></i>
               </span>
-              <h4 class="mt-5 mb-5">480,000+ Clients</h4>
+              <h4 class="mt-5 mb-5">Anonymity</h4>
               <p>
-                One of the fundamental principles of trading is risk management.
-                Successful traders carefully manage their capital,
-              </p>
+              We aim to make elections fair, efficient, and accessible for everyone.Our mission is to make voting accessible, fair, and secure for everyone, no matter where they are. </p>
             </div>
           </div>
           <div class="col-md-6 col-xxl-4">
@@ -58,10 +54,9 @@ const Provide = () => {
               <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
                 <i class="ti ti-shield-check-filled fs-three p1-color"></i>
               </span>
-              <h4 class="mt-5 mb-5">Trusted and Secure</h4>
+              <h4 class="mt-5 mb-5">Real-time Results</h4>
               <p>
-                Trading is not without its challenges, as markets can be highly
-                volatile and unpredictable. It requires discipline
+              We ensure that results are updated in real-time as votes are cast and recorded. Every vote is instantly verified, encrypted, and added to the digital ledger.
               </p>
             </div>
           </div>

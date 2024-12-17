@@ -28,7 +28,7 @@ const Blog = () => {
               <h3>News & Analysis</h3>
             </div>
             <a
-              href="blog.html"
+              href="#top"
               class="cmn-btn link fs-six-up  gap-2 gap-lg-3 align-items-center"
             >
               {" "}
@@ -55,18 +55,17 @@ const Blog = () => {
               <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
                 <a href="blog-details.html">
                   <h5 class="mb-4 mb-lg-5">
-                    Trading Psychology: Mastering Your Mind for Profit
+                  Institutional Adoption and Financial Integration
                   </h5>
                 </a>
                 <div class="fs-seven fw_500 d-flex row-gap-0 flex-wrap gap-3 mb-4 mb-lg-5">
                   August 17,2023 <span>|</span> Written by jason Turner
                 </div>
                 <p>
-                  Trading in financial markets involves a wide employ to make
-                  informed decisions.
+                Major firms like BlackRock and PayPal are adopting blockchain for tokenized securities and digital cash.
                 </p>
                 <a
-                  href="blog-details.html"
+                  href="#top"
                   class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8"
                 >
                   {" "}
@@ -93,18 +92,17 @@ const Blog = () => {
               <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
                 <a href="blog-details.html">
                   <h5 class="mb-4 mb-lg-5">
-                    Trading Pitfalls Common Mistakes and How to Avoid Them...
+                  Political Influence on Crypto Markets
                   </h5>
                 </a>
                 <div class="fs-seven fw_500 d-flex flex-wrap row-gap-0 gap-3 mb-4 mb-lg-5">
                   August 17,2023 <span>|</span> Written by jason Turner
                 </div>
                 <p>
-                  Trading in financial markets involves a wide employ to make
-                  informed decisions.
+                Donald Trump’s pro-crypto stance has boosted market sentiment, with Bitcoin reaching record highs post-election results​.
                 </p>
                 <a
-                  href="blog-details.html"
+                  href="#top"
                   class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8"
                 >
                   {" "}
@@ -131,18 +129,17 @@ const Blog = () => {
               <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
                 <a href="blog-details.html">
                   <h5 class="mb-4 mb-lg-5">
-                    Trading Platforms: Tools for Success in Financial Markets
+                  Blockchain for Gaming and Accessibility
                   </h5>
                 </a>
                 <div class="fs-seven fw_500 d-flex flex-wrap row-gap-0 gap-3 mb-4 mb-lg-5">
                   August 17,2023 <span>|</span> Written by jason Turner
                 </div>
                 <p>
-                  Trading in financial markets involves a wide employ to make
-                  informed decisions.
+                Projects like Notcoin aim to make blockchain more accessible by gamifying experience and fostering community engagement​.
                 </p>
                 <a
-                  href="blog-details.html"
+                  href="#top"
                   class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8"
                 >
                   {" "}

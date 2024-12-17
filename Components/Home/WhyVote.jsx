@@ -19,7 +19,7 @@ const WhyVote = () => {
         <div class="row gy-3 gy-lg-0 justify-content-center">
           <div class="col-sm-7 col-lg-6 col-xxl-5 order-2 order-lg-0">
             <div class="why-trade__thumbs h-100 d-flex align-items-end ps-20 ps-sm-5 ps-lg-0">
-              <img src="assets/images/why_trade.png" alt="Imgae" />
+              <img src="assets/images/whyVote-removebg-preview.png" alt="Imgae" />
             </div>
           </div>
           <div class="col-lg-6 col-xxl-7">
@@ -27,7 +27,7 @@ const WhyVote = () => {
               <div class="col-xxl-6 offset-xxl-2">
                 <div class="why-trade__part">
                   <span class="heading fs-five">Why Vote </span>
-                  <h3 class="mb-3 mt-5">Prime Minister (EC)</h3>
+                  <h3 class="mb-3 mt-5">Choose for yourself (EC)</h3>
                   <p>
                     Voting is a fundamental civic duty that empowers individuals
                     to influence government decisions and policies.

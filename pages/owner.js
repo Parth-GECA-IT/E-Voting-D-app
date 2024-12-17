@@ -95,7 +95,7 @@ const voter = () => {
                       <Input
                         name={"Start Time"}
                         placeholder={"startTime"}
-                        type={"date"}
+                        type={"date"} //datetime-local
                         handleClick={(e) =>
                           setVoteTime({
                             ...voteTime,
@@ -106,7 +106,7 @@ const voter = () => {
                       <Input
                         name={"End Time"}
                         placeholder={"endTime"}
-                        type={"date"}
+                        type={"date"} //datetime-local
                         handleClick={(e) =>
                           setVoteTime({
                             ...voteTime,

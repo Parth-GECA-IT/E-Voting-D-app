@@ -99,7 +99,7 @@ const voter = () => {
                 <div class="head_part">
                   <a href="/">
                     {" "}
-                    <img src="assets/images/logo.png" alt="Logo" />
+                    <img src="assets/images/Loho.png" alt="Logo" />
                   </a>
                   <h5 class="mt-5 mt-lg-6">Register as a voter </h5>
                 </div>

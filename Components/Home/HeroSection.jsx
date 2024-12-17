@@ -32,7 +32,7 @@ const HeroSection = ({ initialData, higest }) => {
                   Vote For Yourself
                 </h1>
                 <p class="fs-six-up fw_500 nb4-xxl-color">
-                  Now you can elect your first prime minister through the
+                  Now you can elect your candidate through the
                   decentralized voting system
                 </p>
                 {initialData?.startDateN != 0 && initialData?.endDateN != 0 && (

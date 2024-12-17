@@ -24,34 +24,28 @@ const Vote = () => {
         <div class="row gy-10 gy-xxl-0 justify-content-center justify-content-xxl-between align-items-center">
           <div class="col-lg-6 col-xxl-5">
             <div class="trade_on__content">
-              <span class="heading s1-color fs-five mb-5">Trade On Our</span>
+              <span class="heading s1-color fs-five mb-5">Choose us to vote</span>
               <h3 class="mb-4 mb-lg-5">World Class Platform</h3>
               <p class="fs-six mx-ch">
-                Trading in financial markets involves a wide range of strategies
-                that traders employ to make informed decisions. From trading to
-                swing trading and long-term investing, each strategy has its own
-                set of principles and risk factors.
+              Our platform is built to meet global standards of excellence, combining innovation, security, and user-centric design to deliver a seamless voting experience. Trusted by individuals, organizations, and governments, we strive to set the benchmark for modern democratic processes.
               </p>
               <ul class="d-flex gap-4 flex-column mt-6">
                 <li class="d-flex align-items-center gap-3 fs-six-up">
-                  <i class="ti ti-circle-check s1-color fs-four"></i>Charts
-                  trading
+                  <i class="ti ti-circle-check s1-color fs-four"></i>Security and Integrity
                 </li>
                 <li class="d-flex align-items-center gap-3 fs-six-up">
                   <i class="ti ti-circle-check s1-color fs-four"></i>
-                  Understanding Trading Strategies{" "}
+                  Transparency{" "}
                 </li>
                 <li class="d-flex align-items-center gap-3 fs-six-up">
-                  <i class="ti ti-circle-check s1-color fs-four"></i>Risk
-                  Management in Trading{" "}
+                  <i class="ti ti-circle-check s1-color fs-four"></i>Privacy and Anonymity{" "}
                 </li>
                 <li class="d-flex align-items-center gap-3 fs-six-up">
-                  <i class="ti ti-circle-check s1-color fs-four"></i>Technical
-                  vs. Fundamental Analysis{" "}
+                  <i class="ti ti-circle-check s1-color fs-four"></i>Reduced Fraud and Manipulation{" "}
                 </li>
               </ul>
               <a
-                href="signup.html"
+                href="#top"
                 class="cmn-btn secondary-alt fs-six-up nb4-xxl-bg gap-2 gap-lg-3 align-items-center py-2 px-5 py-lg-3 px-lg-6 mt-7 mt-xxl-8"
               >
                 Sign up Now <i class="ti ti-arrow-right fs-four"></i>

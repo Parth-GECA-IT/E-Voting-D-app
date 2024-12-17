@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div class="row gy-6 w-100 text-center text-sm-start align-items-center justify-content-sm-between">
             <div class="col-sm-8">
-              <h2>Start earning with only $20</h2>
+              <h2>Start learning </h2>
               <p class="fs-six-up fw_500 mt-5">
                 Try our super easy portal for free
               </p>
@@ -128,7 +128,7 @@ const Footer = () => {
               <h4 class="mb-6 mb-lg-8">Contact Us</h4>
               <div class="d-flex flex-column gap-2 gap-sm-3 gap-md-4">
                 <a href="#">
-                  <span class="__cf_email__">[email&#160;protected]</span>
+                  <span class="__cf_email__">abc@geca.ac.in</span>
                 </a>
                 <a href="tel:+123456789">+0123 456 789</a>
               </div>
@@ -139,7 +139,7 @@ const Footer = () => {
           <div class="col-12 border-top border-color opac-20 py-7 py-xxl-8">
             <div class="footer__copyright d-center gap-15 flex-wrap justify-content-md-between">
               <p class="fs-six order-2 order-md-0 text-center text-md-start">
-                Copyright ©<span class=""></span> @theblockchaincoders{" "}
+                Copyright ©<span class=""></span> @votz{" "}
               </p>
               <ul class="social-area d-center gap-2 gap-md-3">
                 <li>
