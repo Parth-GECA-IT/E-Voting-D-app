@@ -13,7 +13,7 @@ By the end of this tutorial, you’ll have a fully functional decentralized voti
 
 ## Project Overview
 
-![alt text](public\assets\images\Screenshot_2024-12-10_164300.png)
+![alt text](https://www.daulathussain.com/wp-content/uploads/2024/05/Building-Deploying-a-MERN-STACK-Blockchain-Music-Artists-Social-Media-Dapp.jpg)
 
 ## Instruction
 
