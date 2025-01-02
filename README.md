@@ -64,35 +64,66 @@ A secure, transparent, and tamper-proof voting platform built on blockchain tech
 ---
 
 ## 📝 Setup and Installation
+### Setup :
 
-1. **Clone the Repository**:
+Get PInata API key from [here](https://pinata.cloud/)
+
+**PInata IPFS**
+
+```https://www.pinata.cloud/
+ GET: API_KEY
+ GET:  SECRECT_KEY
+```
+
+**PInata IPFS IMAGE UPLOAD**
+
+```https://www.pinata.cloud/
+ headers: {
+            pinata_api_key: `YOUR_API_KEY`,
+            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
+            "Content-Type": "multipart/form-data",
+          },
+```
+
+**PInata IPFS JSON DATA UPLOAD**
+
+```https://www.pinata.cloud/
+ headers: {
+            pinata_api_key: `YOUR_API_KEY`,
+            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
+             "Content-Type": "application/json",
+          },
+```
+
+**Clone the Repository**:
    ```bash
    git clone <repository-url>
    cd voting-dapp
    ```
+### Installation :
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-3. **Compile Smart Contracts**:
+2. **Compile Smart Contracts**:
    ```bash
    npx hardhat compile
    ```
 
-4. **Deploy Contracts Locally**:
+3. **Deploy Contracts Locally**:
    ```bash
    npx hardhat node
    npx hardhat run scripts/deploy.js --network localhost
    ```
 
-5. **Run the Development Server**:
+4. **Run the Development Server**:
    ```bash
    npm run dev
    ```
 
-6. **Access the Application**:
+5. **Access the Application**:
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
