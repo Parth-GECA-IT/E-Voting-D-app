@@ -97,7 +97,7 @@ Get PInata API key from [here](https://pinata.cloud/)
 
 **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Parth-GECA-IT/E-Voting-D-app.git
    cd voting-dapp
    ```
 ### Installation :
