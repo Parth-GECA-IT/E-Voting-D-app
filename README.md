@@ -1,189 +1,122 @@
-# Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+# Decentralized Voting Application (DApp)
 
-Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+A secure, transparent, and tamper-proof voting platform built on blockchain technology using Next.js, React, Solidity, and Hardhat.
 
-Dive into the world of blockchain development by creating your very own decentralized election voting DApp. In this tutorial, we will guide you through the entire process of building and deploying a secure and transparent voting application using Solidity for smart contracts, Hardhat for development and testing, and Next.js for the frontend. Perfect for beginners and seasoned developers alike, this video covers:
+## 🚀 Features
 
-- Writing and deploying smart contracts in Solidity
-- Setting up a development environment with Hardhat
-- Building a responsive frontend with Next.js
-- Connecting your DApp to the Ethereum network
+- **Blockchain-Powered Voting**: Ensures data immutability and transparency.
+- **Smart Contracts**: Securely manage voting processes and results.
+- **Responsive Frontend**: Built with Next.js and React for an interactive user experience.
+- **Integration with Ethereum**: Seamless interaction with the Ethereum blockchain using Ethers.js or Web3.js.
+- **Testing and Deployment**: Comprehensive testing and deployment with Hardhat.
 
-By the end of this tutorial, you’ll have a fully functional decentralized voting - system ready to be deployed on the blockchain. Subscribe and hit the bell icon to stay updated with the latest in blockchain development!
+---
 
-## Project Overview
+## 📸 Screenshots
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/05/Building-Deploying-a-MERN-STACK-Blockchain-Music-Artists-Social-Media-Dapp.jpg)
+### Home Page
+![Home Page](.//public//screenshots//Screenshot_2024-12-10_164300.png)
 
-## Instruction
+### Voter Registration Page
+![Voter Registration Page](.//public//screenshots//Screenshot%202024-12-10%20165229.png)
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+### Candidate Registration Page
+![Candidate Registration Page](.//public//screenshots//Screenshot%202024-12-10%20165108.png)
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/building-and-deploying-a-full-mern-stack-blockchain-music-artists-social-media-dapp)
+### Eletion Creation Page
+![Eletion Creation Page](.//public//screenshots//Screenshot%202024-12-10%20180942.png)
 
-#### Setup Video
+### Registered Candidates Page
+![Registered Candidates Page](.//public//screenshots//Screenshot%202024-12-10%20165317.png)
 
-- [Final Code Setup video](https://youtu.be/rp83FIpXyEY?si=XkOBP4yFGlpuwfTe)
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### DEPLOYMENT
-
-- [Get $200 Credit](https://m.do.co/c/fbe1551c5ae1)
-
-```https://nodejs.org/en/download
-  PROVIDER: Digital Ocean
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.2 / latest version
-  NPM: 10.5.0
-```
-
-#### PInata IPFS
-
-```https://www.pinata.cloud/
- GET: API_KEY
- GET:  SECRECT_KEY
-```
-
-## PInata IPFS IMAGE UPLOAD
-
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-            "Content-Type": "multipart/form-data",
-          },
-```
-
-## PInata IPFS JSON DATA UPLOAD
-
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-             "Content-Type": "application/json",
-          },
-```
-
-#### Clone Starter File
-
-```URL
-  GET: Project Starter File Download
-```
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v21.6.2 / latest version
-  NPM: 10.5.0
-```
-
-#### Test Faucets
-
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```https://faucet.polygon.technology/
-  Get: Free Test Faucets
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Amoy
-
-```https://www.oklink.com/amoy
-  OPEN: Polygon Amoy
-```
-
-#### Formspree
-
-```https://formspree.io/
-  CREATE ACCOUNT: https://formspree.io/
-  const [state, handleSubmit] = useForm("YOUR_KEY");
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
-#### PACKAGE.JSON
-
-```https://www.theblockchaincoders.com/SourceCode
-  {
-  "name": "voting-organization",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "ether": "^0.0.9",
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-dropzone": "^14.2.2",
-    "react-icons": "^4.4.0",
-    "web3modal": "^1.9.9",
-    "react-hot-toast": "^2.4.1",
-    "@formspree/react": "^2.5.1"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.2"
-  }
-}
+## 📂 Project Structure
 
 ```
+├── contracts          # Solidity smart contracts
+├── pages              # Next.js pages for routing
+├── Components         # React components for the UI
+├── public             # Static assets (e.g., favicon)
+├── scripts            # Deployment scripts for smart contracts
+├── styles             # CSS and styling files
+├── utils/context      # Utility functions and React context
+├── hardhat.config.js  # Hardhat configuration file
+├── package.json       # Dependencies and project scripts
+```
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **Next.js**: Server-side rendering and file-based routing.
+- **React**: Component-based UI development.
+- **CSS/SCSS**: Styling for the application.
+
+### Blockchain
+- **Solidity**: Smart contract programming language.
+- **Hardhat**: Ethereum development environment for testing and deployment.
+- **Ethers.js/Web3.js**: Blockchain interaction library.
+
+### Others
+- **Node.js**: Backend runtime.
+- **npm**: Dependency management.
+
+---
+
+## 📝 Setup and Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd voting-dapp
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Compile Smart Contracts**:
+   ```bash
+   npx hardhat compile
+   ```
+
+4. **Deploy Contracts Locally**:
+   ```bash
+   npx hardhat node
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
+
+5. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+6. **Access the Application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🧪 Testing
+
+Run tests for smart contracts using Hardhat:
+```bash
+npx hardhat test
+```
+
+---
+
+<!-- ## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+--- -->
+
+## 👥 Contributors
+
+- **Parth Armarkar** - [LinkedIn](http://www.linkedin.com/in/parth-armarkar-052551289) | [GitHub](https://github.com/Parth-GECA-IT)
+- **Karan Gawande** - [LinkedIn](linkedin.com/in/karan-gawande-64aa3b231) | [GitHub](https://github.com)
+- **Mihir Mudholkar** - [LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com)
+- **Prakhar Singh** - [LinkedIn](https://www.linkedin.com/in/prakhar-singh-1b9614185/) | [GitHub](https://github.com/prakharsingh1923/E-voting-Dapp)
+
+Feel free to fork, contribute, or report issues!
